@@ -142,8 +142,10 @@ const CERTS = [
 ];
 
 // ---------- LOADER ----------
-window.addEventListener('load', () => {
-  setTimeout(() => document.getElementById('loader').classList.add('hide'), 500);
+document.addEventListener('DOMContentLoaded', () => {
+  setTimeout(() => {
+    document.getElementById('loader').classList.add('hide');
+  }, 200);
 });
 
 
@@ -187,7 +189,7 @@ document.getElementById('backTop').addEventListener('click', () =>
 );
 
 // ---------- TYPING ----------
-const phrases = ['Full Stack Developer', 'BS Computer Science Student', 'Cybersecurity Enthusiast', 'Problem Solver'];
+const phrases = ['Full Stack Developer', 'BS Computer Science Student', 'Software Engineer', 'Problem Solver', 'Web Developer'];
 const typedEl = document.getElementById('typed');
 let pi = 0, ci = 0, deleting = false;
 function type() {
