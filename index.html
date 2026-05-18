@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Bilal Hassan — BS Computer Science Student | Future Software Engineer & Cybersecurity Enthusiast. Portfolio showcasing projects, skills and certifications." />
+  <meta name="author" content="Bilal Hassan" />
+  <meta name="keywords"
+    content="Bilal Hassan, Portfolio, Software Engineer, Cybersecurity, Full Stack Developer, BSCS, Lahore" />
+  <meta property="og:title" content="Bilal Hassan — Developer Portfolio" />
+  <meta property="og:description" content="Future Software Engineer & Cybersecurity Enthusiast" />
+  <meta property="og:type" content="website" />
+  <title>Bilal Hassan — Developer Portfolio</title>
+
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0e27'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' font-family='Orbitron,sans-serif' font-size='28' font-weight='800' fill='%2300e5ff'%3EBH%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+  <!-- Loader -->
+  <div class="loader" id="loader">
+    <div class="loader-ring"></div>
+    <div class="loader-text">Bilal Hassan</div>
+  </div>
+
+
+
+  <!-- Scroll progress bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-badge">BH</span>
+        <span class="logo-text">Bilal Hassan</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#certificates" class="nav-link">Certificates</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero section bg-home" id="home">
+    <div class="container hero-grid">
+      <div class="hero-text reveal">
+        <h1 class="hero-title">
+          Hi, It's me <span class="grad-text"><br>Bilal Hassan</span>
+        </h1>
+        <h2 class="hero-typing">
+          And I'm a <span class="typed" id="typed"></span><span class="caret">|</span>
+        </h2>
+        <p class="hero-sub">Code. Create. Secure. — Future Software Engineer & Cybersecurity Enthusiast building modern,
+          secure, full-stack experiences.</p>
+
+        <div class="hero-cta">
+          <a href="assets/resume/Bilal_Hassan_Resume.pdf" download class="btn btn-primary">
+            <i class="fa-solid fa-download"></i> Download Resume
+          </a>
+          <a href="#projects" class="btn btn-ghost">
+            <i class="fa-solid fa-code"></i> View My Work
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="mailto:bilaltohassan2@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://wa.me/923294509864" target="_blank" rel="noopener" aria-label="WhatsApp"><i
+              class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/in/bilal-hassan-1a4561331" target="_blank" rel="noopener"
+            aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/bilal00656" target="_blank" rel="noopener" aria-label="GitHub"><i
+              class="fa-brands fa-github"></i></a>
+          <a href="https://www.facebook.com/share/17f3rdZQ7G/" target="_blank" rel="noopener" aria-label="Facebook"><i
+              class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/b.h.p.597" target="_blank" rel="noopener" aria-label="Instagram"><i
+              class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="profile-wrap">
+          <div class="profile-glow"></div>
+          <div class="profile-ring"></div>
+          <img src="assets/images/profile.jpeg" alt="Bilal Hassan" class="profile-img" loading="lazy" />
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section bg-about" id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="kicker">About Me</p>
+        <h2 class="section-title">A bit <span class="grad-text">about me</span></h2>
+        <p class="section-sub">Curious mind. Clean code. Secure systems.</p>
+        <p class="hero-eyebrow"><span class="dot"></span> Open to Onsite, Hybrid and Remote Opportunities · Lahore,
+          Punjab, PaKistan.</p>
+
+      </div>
+
+      <div class="about-grid">
+        <div class="glass card reveal">
+          <i class="fa-solid fa-user-astronaut card-icon"></i>
+          <h3>Who I am</h3>
+          <p>I'm a BSCS student passionate about software engineering, full-stack web development, cybersecurity and
+            problem solving. I love turning ideas into clean, reliable products.</p>
+        </div>
+        <div class="glass card reveal">
+          <i class="fa-solid fa-bullseye card-icon"></i>
+          <h3>My Goal</h3>
+          <p>To grow into a world-class software engineer with deep cybersecurity expertise — building scalable systems
+            that are fast, elegant and secure by design.</p>
+        </div>
+        <div class="glass card reveal">
+          <i class="fa-solid fa-rocket card-icon"></i>
+          <h3>What I do</h3>
+          <p>Full-stack web apps with HTML, CSS, JS, PHP and Laravel. C++ and Python projects covering OOP, DSA and AI.
+            SQL database design, and modern responsive UI.</p>
+        </div>
+        <div class="glass card reveal">
+          <i class="fa-solid fa-infinity card-icon"></i>
+          <h3>Always Learning</h3>
+          <p>Continuous learning is my engine — every day I sharpen one more skill, ship one more project and study one
+            more concept in software and security.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section bg-education" id="education">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="kicker">Education</p>
+        <h2 class="section-title">Academic <span class="grad-text">Journey</span></h2>
+      </div>
+
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="glass tl-card">
+            <p class="tl-date">2024 — Present · 5th Semester</p>
+            <h3>BS Computer Science</h3>
+            <h4>Superior University, Lahore</h4>
+            <p>Studying core computer science with focus on software engineering, data structures, databases, networks
+              and security.</p>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="glass tl-card">
+            <p class="tl-date">2022 — 2024</p>
+            <h3>Intermediate in Computer Science (ICS)</h3>
+            <h4>Govt. Graduate College, Sheikhupura</h4>
+            <p>Completed intermediate studies with a focus on computer science fundamentals, including programming
+              basics, mathematics, and logical problem-solving.</p>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="glass tl-card">
+            <p class="tl-date">2020 — 2022</p>
+            <h3>Matric in Computer Science</h3>
+            <h4>Muslim Model High School, Sheikhupura</h4>
+            <p>Completed secondary education with computer science as a core subject, building foundational knowledge in
+              programming concepts and computational thinking.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="kicker">Experience</p>
+        <h2 class="section-title">Work <span class="grad-text">Experience</span></h2>
+      </div>
+
+      <div class="exp-grid">
+        <article class="glass exp-card reveal">
+          <div class="exp-top">
+            <i class="fa-solid fa-briefcase"></i>
+            <span class="badge">Remote · Current</span>
+          </div>
+          <h3>Full-Stack Development Intern</h3>
+          <h4>TEYZIX CORE · May 2026 – Present</h4>
+          <ul>
+            <li>Working on modern full-stack web applications</li>
+            <li>Building responsive UI/UX</li>
+            <li>Backend integration & API workflows</li>
+            <li>Deployment and professional dev practices</li>
+          </ul>
+        </article>
+
+        <article class="glass exp-card reveal">
+          <div class="exp-top">
+            <i class="fa-solid fa-laptop-code"></i>
+            <span class="badge">Remote · Current</span>
+          </div>
+          <h3>Web Development Intern</h3>
+          <h4>Rhombix Technologies · Apr 2026 – Present</h4>
+          <ul>
+            <li>Developing responsive web applications</li>
+            <li>Frontend technologies & dynamic UI</li>
+            <li>Real-world team project collaboration</li>
+          </ul>
+        </article>
+
+        <article class="glass exp-card reveal">
+          <div class="exp-top">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span class="badge">Academic</span>
+          </div>
+          <h3>Academic & Technical Projects</h3>
+          <h4>Software Development & University Projects</h4>
+          <ul>
+            <li>Multiple C++ OOP & DSA based systems</li>
+            <li>Database-driven applications using SQL</li>
+            <li>Python AI / Computer-Vision experiments</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section bg-skills" id="skills">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="kicker">Skills</p>
+        <h2 class="section-title">Tech <span class="grad-text">Stack</span></h2>
+        <p class="section-sub">Tools and technologies I work with.</p>
+      </div>
+
+      <div class="skills-grid"></div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="kicker">Services</p>
+        <h2 class="section-title">What I <span class="grad-text">Offer</span></h2>
+      </div>
+
+      <div class="services-grid"></div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="section stats-section">
+    <div class="container stats-grid">
+      <div class="glass stat reveal">
+        <h3 class="counter" data-target="8">0</h3>
+        <p>Projects Completed</p>
+      </div>
+      <div class="glass stat reveal">
+        <h3 class="counter" data-target="6">0</h3>
+        <p>Technologies Used</p>
+      </div>
+      <div class="glass stat reveal">
+        <h3 class="counter" data-target="4">0</h3>
+        <p>Certificates Earned</p>
+      </div>
+      <div class="glass stat reveal">
+        <h3 class="counter" data-target="2">0</h3>
+        <p>Active Internships</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section bg-projects" id="projects">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="kicker">Projects</p>
+        <h2 class="section-title">Featured <span class="grad-text">Work</span></h2>
+      </div>
+
+      <div class="filter-bar reveal" id="filterBar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+        <button class="filter-btn" data-filter="cpp">C++ / DSA</button>
+        <button class="filter-btn" data-filter="python">Python / AI</button>
+        <button class="filter-btn" data-filter="db">Database Systems</button>
+        <button class="filter-btn" data-filter="full">Full Stack</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section class="section" id="certificates">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="kicker">Certificates</p>
+        <h2 class="section-title">Verified <span class="grad-text">Achievements</span></h2>
+      </div>
+      <div class="cert-grid" id="certGrid"></div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+    <img id="lightboxImg" alt="Certificate preview" />
+  </div>
+
+  <!-- CONTACT -->
+  <section class="section bg-contact" id="contact">
+    <div class="container contact-grid">
+      <div class="reveal">
+        <p class="kicker">Contact</p>
+        <h2 class="section-title">Let's <span class="grad-text">Connect</span></h2>
+        <p class="section-sub" style="text-align:left">Have an opportunity, project idea, or just want to say hi? My
+          inbox is always open.</p>
+
+        <ul class="contact-list">
+          <li><i class="fa-solid fa-envelope"></i><a href="mailto:bilaltohassan2@gmail.com">bilaltohassan2@gmail.com</a>
+          </li>
+          <li><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/923294509864" target="_blank"
+              rel="noopener">WhatsApp</a></li>
+          <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/bilal-hassan-1a4561331"
+              target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><i class="fa-brands fa-github"></i><a href="https://github.com/bilal00656" target="_blank"
+              rel="noopener">GitHub</a></li>
+          <li><i class="fa-solid fa-location-dot"></i> Lahore, Punjab, Pakistan</li>
+        </ul>
+      </div>
+
+      <form class="glass contact-form reveal" id="contactForm" novalidate>
+        <div class="field">
+          <input type="text" id="name" required />
+          <label for="name">Name</label>
+        </div>
+        <div class="field">
+          <input type="email" id="email" required />
+          <label for="email">Email</label>
+        </div>
+        <div class="field">
+          <input type="text" id="subject" required />
+          <label for="subject">Subject</label>
+        </div>
+        <div class="field">
+          <textarea id="message" rows="5" required></textarea>
+          <label for="message">Message</label>
+        </div>
+        <button type="submit" class="btn btn-primary full">
+          <i class="fa-solid fa-paper-plane"></i> Send Message
+        </button>
+        <p class="form-msg" id="formMsg"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-quote">"Transforming ideas into digital reality."</p>
+      <div class="footer-socials">
+        <a href="mailto:bilaltohassan2@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://github.com/bilal00656" target="_blank" rel="noopener" aria-label="GitHub"><i
+            class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/bilal-hassan-1a4561331" target="_blank" rel="noopener"
+          aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://wa.me/923294509864" target="_blank" rel="noopener" aria-label="WhatsApp"><i
+            class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/b.h.p.597" target="_blank" rel="noopener" aria-label="Instagram"><i
+            class="fa-brands fa-instagram"></i></a>
+      </div>
+      <p class="copyright">© <span id="year"></span> Bilal Hassan · All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
