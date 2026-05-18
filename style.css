@@ -128,7 +128,7 @@ h4 {
   border-top-color: var(--blue);
   border-right-color: var(--purple);
   border-radius: 50%;
-  animation: spin 6s linear infinite;
+  animation: spin 1s linear infinite;
   box-shadow: 0 0 10px rgba(0, 229, 255, 0.12);
 }
 .loader-text {
@@ -989,6 +989,8 @@ h4 {
   color: var(--blue);
   text-shadow: var(--glow-cyan);
 }
+
+
 .project-thumb::after {
   content: "";
   position: absolute;
