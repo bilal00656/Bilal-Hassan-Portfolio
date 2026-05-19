@@ -9,13 +9,13 @@ const SKILLS = [
   { name: 'JavaScript', icon: 'fa-brands fa-js' },
   { name: 'Bootstrap', icon: 'fa-brands fa-bootstrap' },
   { name: 'PHP', icon: 'fa-brands fa-php' },
-  { name: 'Laravel', icon: 'fa-brands fa-laravel' },
-  { name: 'SQL', icon: 'fa-solid fa-database' },
   { name: 'Python', icon: 'fa-brands fa-python' },
+  { name: 'SQL', icon: 'fa-solid fa-database' },
   { name: 'C++', icon: 'fa-solid fa-code' },
   { name: 'OOP', icon: 'fa-solid fa-cubes' },
   { name: 'DSA', icon: 'fa-solid fa-diagram-project' },
-  { name: 'Git & GitHub', icon: 'fa-brands fa-github' },
+  { name: 'VS Code', icon: 'devicon-vscode-plain' },
+  { name: 'GitHub', icon: 'fa-brands fa-github' },
   { name: 'Responsive', icon: 'fa-solid fa-mobile-screen' },
 ];
 
@@ -37,8 +37,8 @@ const PROJECTS = [
     tags: ['HTML', 'CSS', 'JavaScript'],
     category: 'web',
     icon: 'fa-solid fa-globe',
-    github: 'https://github.com/bilal00656/Bilal-Hassan-portfolio-website',
-    demo: 'https://bilal00656.github.io/Bilal-Hassan-portfolio-website/'
+    github: 'https://github.com/bilal00656/Bilal-Hassan-Portfolio',
+    demo: 'https://bilal00656.github.io/Bilal-Hassan-Portfolio/'
   },
   {
     title: 'TEYZIX CORE Internship Live Portal',
