@@ -16,6 +16,7 @@ const SKILLS = [
   { name: 'DSA', icon: 'fa-solid fa-diagram-project' },
   { name: 'VS Code', icon: 'devicon-vscode-plain' },
   { name: 'GitHub', icon: 'fa-brands fa-github' },
+  { name: 'AI Tools', icon: 'fa-solid fa-wand-magic-sparkles' },
   { name: 'Responsive', icon: 'fa-solid fa-mobile-screen' },
 ];
 
